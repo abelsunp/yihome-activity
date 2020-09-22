@@ -1,0 +1,138 @@
+/*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+a,a:hover {
+	text-decoration: none;
+}
+
+
+
+body{background-color:transparent;margin: 0;font-family:"PingFang SC", "Open Sans", "Helvetica Neue", sans-serif;}
+@media (min-width: 1200px){
+.container {max-width: 1200px;}
+}
+.container-fluid{padding: 0;}
+.row{
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+}
+.page-enter-active, .page-leave-active {
+    transition: all .1s;
+}
+.page-enter, .page-leave-active {
+    opacity: 0;
+}
+.geetest_holder.geetest_mobile.geetest_ant .geetest_panel .geetest_copyright{
+	display: none;
+}
+.geetest_holder.geetest_mobile.geetest_ant .geetest_panel a.geetest_feedback{
+	display: none;
+}
+.el-message{
+	z-index: 99999999999999999999999999!important;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.mt-94 {margin-top: 64px;}
+}
+@media (min-width: 320px) and (max-width: 767px){
+.mt-94 {margin-top: 64px;}
+}
+/* webkit, opera, IE9  复制网页文字时 背景颜色*/
+::selection { background:rgba(32,150,243); color: #ffffff;}
+/* mozilla firefox */
+::-moz-selection { background:rgba(32,150,243); color: #ffffff;}
+/* webkit, opera, IE9 */
+::-webkit-selection { background:rgba(32,150,243); color: #ffffff;}
+/* opera */
+::-o-selection { background:rgba(32,150,243); color: #ffffff;}
+/* ie */
+::-ms-selection { background:rgba(32,150,243); color: #ffffff;}
+/*清除密码框后面的小眼睛*/
+input::-ms-clear{display:none;}/*隐藏文本框叉子*/
+input::-ms-reveal{display:none;}/*隐藏密码框小眼睛*/
+
+
+html,body,#__nuxt,#__layout{
+	width: 100%;
+	height: 100%;
+}

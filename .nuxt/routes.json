@@ -1,0 +1,23 @@
+[
+  {
+    "name": "early_bird",
+    "path": "/early_bird",
+    "component": "/Users/lydia/Desktop/workSpace/yijia/yihomeactivity/pages/early_bird/index.vue",
+    "chunkName": "pages/early_bird/index",
+    "_name": "_438cdf82"
+  },
+  {
+    "name": "helptickets",
+    "path": "/helptickets",
+    "component": "/Users/lydia/Desktop/workSpace/yijia/yihomeactivity/pages/helptickets/index.vue",
+    "chunkName": "pages/helptickets/index",
+    "_name": "_1171d862"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/lydia/Desktop/workSpace/yijia/yihomeactivity/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_842ab1d0"
+  }
+]
